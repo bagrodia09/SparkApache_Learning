@@ -16,4 +16,5 @@ object Spark extends App {
 
   firstDF.show()
   firstDF.printSchema()
+  firstDF.show(6)
 }
